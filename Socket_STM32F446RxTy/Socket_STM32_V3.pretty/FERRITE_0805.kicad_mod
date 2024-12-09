@@ -1,0 +1,125 @@
+(footprint "FERRITE_0805"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Package used for SMD 0805 resistors. Recommended footprint by http://www.resistorguide.com/resistor-sizes-and-packages/ this SMD resistor guide")
+	(property "Reference" "REF**"
+		(at -0.9 0.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3271d9de-b960-4139-8558-5636ed0c95d7")
+		(effects
+			(font
+				(size 0.552 0.552)
+				(thickness 0.048)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "FERRITE_0805"
+		(at -0.9 0.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7f5e1a6c-e9e4-4c50-b226-96a71d90570c")
+		(effects
+			(font
+				(size 0.552 0.552)
+				(thickness 0.048)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cac60f71-fb6a-4211-bb12-5ac69efafdff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7509f0f1-1004-460f-9075-b177ab924ff4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ded9d9d2-32d0-4268-8e60-b8172b4a67c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1 -0.7)
+		(end -1 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ba70bc3a-d12d-4035-917c-1c131225e41e")
+	)
+	(fp_line
+		(start -1 -0.7)
+		(end 1 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5b07333a-5301-43f1-bbc4-ed29dcb82c7b")
+	)
+	(fp_line
+		(start -1 0.7)
+		(end 1 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "89750b0c-37b0-44b8-8d91-3d9424c6b5b5")
+	)
+	(fp_line
+		(start 1 0.7)
+		(end 1 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e0e7732c-ba8b-4583-b1cc-66da2b2c90ed")
+	)
+	(pad "1" smd rect
+		(at -0.95 0)
+		(size 1.3 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1)
+		(thermal_bridge_angle 0)
+		(uuid "95ac1eb0-692a-4b35-b892-9beab0bdc8ee")
+	)
+	(pad "2" smd rect
+		(at 0.95 0)
+		(size 1.3 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1)
+		(thermal_bridge_angle 0)
+		(uuid "2bb1d83f-130a-420e-bf36-8e7bbea7788f")
+	)
+)

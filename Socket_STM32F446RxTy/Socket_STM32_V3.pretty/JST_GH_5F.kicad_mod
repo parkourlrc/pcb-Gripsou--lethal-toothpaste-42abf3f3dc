@@ -1,0 +1,178 @@
+(footprint "JST_GH_5F"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Package used Connector Header Through Hole 4 position 0.098\" (2.50mm)")
+	(property "Reference" "REF**"
+		(at -1.7 1.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c326ca8f-185c-4cb8-9597-e6463e238c9a")
+		(effects
+			(font
+				(size 0.552 0.552)
+				(thickness 0.048)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "JST_GH_5F"
+		(at -1.7 1.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9439489e-2e3d-45bd-91d3-eb23541d2649")
+		(effects
+			(font
+				(size 0.552 0.552)
+				(thickness 0.048)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "818f3260-baa8-4248-9b4e-20114d3cb9c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42b99358-1f85-4729-aff0-565a2d1b4f61")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b829343e-efad-4426-8a30-4aa52937d59e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -4.77 0)
+		(end 4.77 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "028b1acf-8878-4278-8ef4-596567e49cf7")
+	)
+	(fp_line
+		(start -4.77 4.2)
+		(end -4.77 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c64cf73-f397-4c04-a98f-bac73b82ff18")
+	)
+	(fp_line
+		(start 4.77 0)
+		(end 4.77 4.2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5dedd4c3-c053-48e8-a4c9-9f76e37f0bce")
+	)
+	(fp_line
+		(start 4.77 4.2)
+		(end -4.77 4.2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "733f2f30-c097-400e-af21-b05eff690270")
+	)
+	(fp_text user "1"
+		(at 2.97 -0.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "69962efd-6e44-4ca0-966d-a55fc4c87c13")
+		(effects
+			(font
+				(size 0.92 0.92)
+				(thickness 0.08)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at 2.52 0 90)
+		(size 1.7 0.55)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.1)
+		(thermal_bridge_angle 0)
+		(uuid "e1b6c844-66d5-40b7-999f-ccc26488d4ba")
+	)
+	(pad "2" smd rect
+		(at 1.25 0 90)
+		(size 1.7 0.55)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.1)
+		(thermal_bridge_angle 0)
+		(uuid "86386595-96c4-4ec6-b622-a7990f5b68b2")
+	)
+	(pad "3" smd rect
+		(at 0 0 90)
+		(size 1.7 0.55)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.1)
+		(thermal_bridge_angle 0)
+		(uuid "b99a0093-3a34-4eeb-b7cf-38b9eaf3d584")
+	)
+	(pad "4" smd rect
+		(at -1.25 0 90)
+		(size 1.7 0.55)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.1)
+		(thermal_bridge_angle 0)
+		(uuid "b459abfc-6583-4776-84de-624da7e6ad85")
+	)
+	(pad "5" smd rect
+		(at -2.52 0 90)
+		(size 1.7 0.55)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.1)
+		(thermal_bridge_angle 0)
+		(uuid "3f0b4e0e-4b85-4bb7-943f-6b619c1b6629")
+	)
+	(pad "NC1" smd rect
+		(at 4.52 3.3 90)
+		(size 2.8 1.2)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.1)
+		(thermal_bridge_angle 0)
+		(uuid "0bb80de8-7740-494d-9322-0b835da27f5d")
+	)
+	(pad "NC2" smd rect
+		(at -4.52 3.3 90)
+		(size 2.8 1.2)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.1)
+		(thermal_bridge_angle 0)
+		(uuid "c5b16e6e-1aa7-481b-a7a0-7c83b1f3cf38")
+	)
+)
