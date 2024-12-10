@@ -122,4 +122,15 @@
 		(thermal_bridge_angle 0)
 		(uuid "755d8984-5a92-4c35-9908-2cb0ea30802b")
 	)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
