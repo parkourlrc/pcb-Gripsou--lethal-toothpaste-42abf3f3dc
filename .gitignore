@@ -1,0 +1,46 @@
+### ======================
+### ==== `.gitignore` ====
+### ======================
+
+# BRIEF :
+# ------- 
+#   This `.gitignore` file is setup so Git does not track KiCad's temporary
+#   files and automatically generated files (such as ``.xml` files for CSV BoM
+#   export) which are not human readable.
+
+# Documentation :
+# ---------------
+#   KiCad website : https://www.kicad.org/
+#   KiCad format documentation : https://kicad.org/help/file-formats/
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+\#auto_saved_files#
+
+# Netlist files (exported from Eeschema)
+*.net
+# NOTE : KiCad is supposed to not make use of netlist files anymore
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+# NOTE/OPINION : autorouter should never be used
+
+
+# Exported BOM files
+*.xml
+#*.csv
