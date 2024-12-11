@@ -2047,55 +2047,20 @@
 				)
 			)
 		)
+		(symbol "STM32F446RCT6_0_1"
+			(rectangle
+				(start 5 2.5)
+				(end 37.5 -62.5)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
 		(symbol "STM32F446RCT6_1_0"
-			(polyline
-				(pts
-					(xy 5 -62) (xy 5 3)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 -62) (xy 37.5 -62)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 37.5 -62) (xy 37.5 3)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 37.5 3) (xy 5 3)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin bidirectional line
 				(at 0 -46.5 0)
 				(length 5.08)
