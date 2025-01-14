@@ -10,8 +10,8 @@
 		(uuid "de8a45eb-0ab7-4cbe-9246-17052b127e4b")
 		(effects
 			(font
-				(size 0.552 0.552)
-				(thickness 0.048)
+				(size 0.6 0.6)
+				(thickness 0.05)
 			)
 			(justify left bottom)
 		)
@@ -149,5 +149,16 @@
 		(solder_mask_margin 0.1)
 		(thermal_bridge_angle 0)
 		(uuid "bf7cc1a4-8066-4fcf-b707-f74ed6193f44")
+	)
+	(model "${KIPRJMOD}/TSX-3225_16.0000MF18X-AC0.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
 	)
 )
