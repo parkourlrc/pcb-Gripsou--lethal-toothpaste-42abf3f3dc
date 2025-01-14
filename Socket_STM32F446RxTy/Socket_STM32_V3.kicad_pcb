@@ -4987,7 +4987,7 @@
 			(at 2.55 0.75 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "4f83f215-a84c-402c-8be0-ec6203a8644f")
+			(uuid "e9988d3a-0d69-44ea-b2c6-1ff008d268c4")
 			(effects
 				(font
 					(size 0.55584 0.55584)
@@ -5001,7 +5001,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a7a78e1e-2535-444a-87f8-7440b8b1985d")
+			(uuid "f5c032da-99af-4cad-9f48-b94d8aceae11")
 			(effects
 				(font
 					(size 1.73384 1.73384)
@@ -5014,7 +5014,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f5cffa15-1333-4c91-8e07-dc5fec330537")
+			(uuid "ca0f63c6-7391-4369-8537-f3917393ed1f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5026,7 +5026,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e112e0e5-f7f8-48c6-93ee-a148cd9c75ce")
+			(uuid "c67ae96d-904a-48e7-b36d-db7ec2d5c4d3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5038,7 +5038,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ffd33bb2-9eb4-46ea-b1a1-863aa59d7620")
+			(uuid "e9f8eceb-905d-4aa3-b800-556cdaa8a320")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5054,7 +5054,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4a98ca2a-f4ca-44de-a67a-bd1a96db45e4")
+			(uuid "4a73b663-5864-4ca6-83ee-b5d67d121b6d")
 		)
 		(fp_line
 			(start -1.6 1.3)
@@ -5064,7 +5064,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "be31718b-9677-4736-ab12-0471449c326e")
+			(uuid "27362037-0c75-4df9-8066-9e6fe0903039")
 		)
 		(fp_line
 			(start 1.6 -1.3)
@@ -5074,7 +5074,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "69cef87a-19b0-4fe1-a5b9-f1c66b30bef5")
+			(uuid "99025799-fb7c-4466-98f2-3ceb98726f1e")
 		)
 		(fp_line
 			(start 1.6 1.3)
@@ -5084,13 +5084,13 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "18e539e1-97aa-4291-9c9d-ebfbc2c8d3df")
+			(uuid "54228a0e-ef99-43d1-877f-c629f86039bc")
 		)
 		(fp_text user "1"
 			(at -2.8 1.3 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "b245f07a-97ac-4929-9e56-9e792a81109c")
+			(uuid "f0ade329-c013-450d-bd0c-9fb0ccd84f69")
 			(effects
 				(font
 					(size 0.92 0.92)
@@ -5106,7 +5106,7 @@
 			(net 2 "N$1")
 			(solder_mask_margin 0.1)
 			(thermal_bridge_angle 0)
-			(uuid "134a53da-44b6-4919-a63b-2cb725815cb8")
+			(uuid "b9496c63-e162-42cf-8b7b-23d529a5ce5f")
 		)
 		(pad "2" smd rect
 			(at 1.1 0.8 90)
@@ -5115,7 +5115,7 @@
 			(net 1 "GND")
 			(solder_mask_margin 0.1)
 			(thermal_bridge_angle 0)
-			(uuid "707435fb-8b0e-4c71-ae68-e6f2bb851ec7")
+			(uuid "9d131d74-f4be-4565-81fc-a5b745e2e3de")
 		)
 		(pad "3" smd rect
 			(at 1.1 -0.8 90)
@@ -5124,7 +5124,7 @@
 			(net 3 "N$7")
 			(solder_mask_margin 0.1)
 			(thermal_bridge_angle 0)
-			(uuid "e97bc28d-f3b3-4667-8805-e86960d52238")
+			(uuid "fee7c555-f9eb-43e1-b577-b4a169209930")
 		)
 		(pad "4" smd rect
 			(at -1.1 -0.8 90)
@@ -5133,7 +5133,18 @@
 			(net 1 "GND")
 			(solder_mask_margin 0.1)
 			(thermal_bridge_angle 0)
-			(uuid "0ff346f9-0be0-4d74-a4f3-9222c37af5de")
+			(uuid "2854f009-a1b6-4ba1-8b9a-1805dbdf336c")
+		)
+		(model "${KIPRJMOD}/TSX-3225_16.0000MF18X-AC0.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 -90)
+			)
 		)
 	)
 	(footprint "Socket_STM32_V3:PAD_1_1.5_1.2"
