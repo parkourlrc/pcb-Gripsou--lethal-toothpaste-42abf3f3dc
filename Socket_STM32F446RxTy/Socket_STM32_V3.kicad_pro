@@ -209,6 +209,7 @@
       "mfg": "",
       "mpn": ""
     },
+    "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
@@ -578,7 +579,7 @@
   "sheets": [
     [
       "4c063881-e920-443a-ae80-d7f5846d6bc5",
-      "Racine"
+      "Root"
     ]
   ],
   "text_variables": {}

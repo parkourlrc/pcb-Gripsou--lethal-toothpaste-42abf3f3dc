@@ -998,61 +998,13 @@
 			)
 		)
 		(symbol "CONN_JST_GH_5POS_1_0"
-			(polyline
-				(pts
-					(xy 5 -18.5) (xy 14 -18.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 2) (xy 5 -18.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 14 -18.5) (xy 14 2)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 14 2) (xy 5 2)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin bidirectional line
 				(at 0 0 0)
-				(length 5.08)
+				(length 5)
 				(name "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
@@ -1066,11 +1018,11 @@
 			)
 			(pin bidirectional line
 				(at 0 -2.5 0)
-				(length 5.08)
+				(length 5)
 				(name "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
@@ -1084,11 +1036,11 @@
 			)
 			(pin bidirectional line
 				(at 0 -5 0)
-				(length 5.08)
+				(length 5)
 				(name "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
@@ -1102,11 +1054,11 @@
 			)
 			(pin bidirectional line
 				(at 0 -7.5 0)
-				(length 5.08)
+				(length 5)
 				(name "4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
@@ -1120,11 +1072,11 @@
 			)
 			(pin bidirectional line
 				(at 0 -10 0)
-				(length 5.08)
+				(length 5)
 				(name "5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.275 1.275)
 						)
 					)
 				)
@@ -1138,11 +1090,11 @@
 			)
 			(pin bidirectional line
 				(at 9.5 -21 90)
-				(length 2.54)
+				(length 2.5)
 				(name "MP1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
@@ -1156,11 +1108,11 @@
 			)
 			(pin bidirectional line
 				(at 12 -21 90)
-				(length 2.54)
+				(length 2.5)
 				(name "MP2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
@@ -1170,6 +1122,19 @@
 							(size 0 0)
 						)
 					)
+				)
+			)
+		)
+		(symbol "CONN_JST_GH_5POS_1_1"
+			(rectangle
+				(start 5 2)
+				(end 14 -18.5)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
@@ -1460,61 +1425,13 @@
 			)
 		)
 		(symbol "PAD_1_1.51.2_1_0"
-			(polyline
-				(pts
-					(xy 5 -1.88) (xy 10 -1.88)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 2) (xy 5 -1.88)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 10 -1.88) (xy 10 2)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 10 2) (xy 5 2)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin bidirectional line
-				(at 0 0 0)
-				(length 5.08)
+				(at 0.08 0 0)
+				(length 5)
 				(name "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
@@ -1560,6 +1477,19 @@
 							(size 0 0)
 						)
 					)
+				)
+			)
+		)
+		(symbol "PAD_1_1.51.2_1_1"
+			(rectangle
+				(start 5 2)
+				(end 10 -2)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
@@ -2021,7 +1951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/65/cb/75/50/53/d6/48/24/DM00141306.pdf/files/DM00141306.pdf/jcr:content/translations/en.DM00141306.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2030,7 +1960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ARM® Cortex®-M4 STM32F4 (STM32G474xC/E series) Microcontroller IC 32-Bit, 180MHz, 512KB (512K x 8) FLASH memory, LQFP-64 (10x10)"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2047,17 +1977,13 @@
 				)
 			)
 		)
-		(symbol "STM32F446RCT6_0_1"
-			(rectangle
-				(start 5 2.5)
-				(end 37.5 -62.5)
-				(stroke
-					(width 0.25)
-					(type default)
+		(property "ki_keywords" "STM32 STM32F4 F4 ARM Cortex-M4"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(fill
-					(type background)
-				)
+				(hide yes)
 			)
 		)
 		(symbol "STM32F446RCT6_1_0"
@@ -2926,55 +2852,20 @@
 				)
 			)
 		)
+		(symbol "STM32F446RCT6_1_1"
+			(rectangle
+				(start 5 2.5)
+				(end 37.5 -62.5)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
 		(symbol "STM32F446RCT6_2_0"
-			(polyline
-				(pts
-					(xy 5 -23) (xy 5 2.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 -23) (xy 30 -23)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 30 -23) (xy 30 2.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 30 2.5) (xy 5 2.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin bidirectional line
 				(at 0 0 0)
 				(length 5.08)
@@ -3261,6 +3152,19 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "STM32F446RCT6_2_1"
+			(rectangle
+				(start 5 2.5)
+				(end 30 -23)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)

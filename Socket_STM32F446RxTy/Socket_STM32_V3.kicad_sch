@@ -2134,61 +2134,13 @@
 				)
 			)
 			(symbol "CONN_JST_GH_5POS_1_0"
-				(polyline
-					(pts
-						(xy 5 -18.5) (xy 14 -18.5)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5 2) (xy 5 -18.5)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 14 -18.5) (xy 14 2)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 14 2) (xy 5 2)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin bidirectional line
 					(at 0 0 0)
-					(length 5.08)
+					(length 5)
 					(name "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.25 1.25)
 							)
 						)
 					)
@@ -2202,11 +2154,11 @@
 				)
 				(pin bidirectional line
 					(at 0 -2.5 0)
-					(length 5.08)
+					(length 5)
 					(name "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.25 1.25)
 							)
 						)
 					)
@@ -2220,11 +2172,11 @@
 				)
 				(pin bidirectional line
 					(at 0 -5 0)
-					(length 5.08)
+					(length 5)
 					(name "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.25 1.25)
 							)
 						)
 					)
@@ -2238,11 +2190,11 @@
 				)
 				(pin bidirectional line
 					(at 0 -7.5 0)
-					(length 5.08)
+					(length 5)
 					(name "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.25 1.25)
 							)
 						)
 					)
@@ -2256,11 +2208,11 @@
 				)
 				(pin bidirectional line
 					(at 0 -10 0)
-					(length 5.08)
+					(length 5)
 					(name "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.275 1.275)
 							)
 						)
 					)
@@ -2274,11 +2226,11 @@
 				)
 				(pin bidirectional line
 					(at 9.5 -21 90)
-					(length 2.54)
+					(length 2.5)
 					(name "MP1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.25 1.25)
 							)
 						)
 					)
@@ -2292,11 +2244,11 @@
 				)
 				(pin bidirectional line
 					(at 12 -21 90)
-					(length 2.54)
+					(length 2.5)
 					(name "MP2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.25 1.25)
 							)
 						)
 					)
@@ -2306,6 +2258,19 @@
 								(size 0 0)
 							)
 						)
+					)
+				)
+			)
+			(symbol "CONN_JST_GH_5POS_1_1"
+				(rectangle
+					(start 5 2)
+					(end 14 -18.5)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -2596,61 +2561,13 @@
 				)
 			)
 			(symbol "PAD_1_1.51.2_1_0"
-				(polyline
-					(pts
-						(xy 5 -1.88) (xy 10 -1.88)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5 2) (xy 5 -1.88)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10 -1.88) (xy 10 2)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10 2) (xy 5 2)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin bidirectional line
-					(at 0 0 0)
-					(length 5.08)
+					(at 0.08 0 0)
+					(length 5)
 					(name "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.25 1.25)
 							)
 						)
 					)
@@ -2696,6 +2613,19 @@
 								(size 0 0)
 							)
 						)
+					)
+				)
+			)
+			(symbol "PAD_1_1.51.2_1_1"
+				(rectangle
+					(start 5 2)
+					(end 10 -2)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -3157,7 +3087,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/65/cb/75/50/53/d6/48/24/DM00141306.pdf/files/DM00141306.pdf/jcr:content/translations/en.DM00141306.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3166,7 +3096,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "ARM® Cortex®-M4 STM32F4 (STM32G474xC/E series) Microcontroller IC 32-Bit, 180MHz, 512KB (512K x 8) FLASH memory, LQFP-64 (10x10)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3183,55 +3113,16 @@
 					)
 				)
 			)
+			(property "ki_keywords" "STM32 STM32F4 F4 ARM Cortex-M4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "STM32F446RCT6_1_0"
-				(polyline
-					(pts
-						(xy 5 -62) (xy 5 3)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5 -62) (xy 37.5 -62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 37.5 -62) (xy 37.5 3)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 37.5 3) (xy 5 3)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin bidirectional line
 					(at 0 -46.5 0)
 					(length 5.08)
@@ -4097,55 +3988,20 @@
 					)
 				)
 			)
+			(symbol "STM32F446RCT6_1_1"
+				(rectangle
+					(start 5 2.5)
+					(end 37.5 -62.5)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
 			(symbol "STM32F446RCT6_2_0"
-				(polyline
-					(pts
-						(xy 5 -23) (xy 5 2.5)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5 -23) (xy 30 -23)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 30 -23) (xy 30 2.5)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 30 2.5) (xy 5 2.5)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin bidirectional line
 					(at 0 0 0)
 					(length 5.08)
@@ -4432,6 +4288,19 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "STM32F446RCT6_2_1"
+				(rectangle
+					(start 5 2.5)
+					(end 30 -23)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -7668,7 +7537,7 @@
 		(at 232.62 35.42 0)
 		(effects
 			(font
-				(size 3 2.55)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -7679,7 +7548,7 @@
 		(at 55.12 35.42 0)
 		(effects
 			(font
-				(size 3 2.55)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -7687,7 +7556,6 @@
 	)
 	(label "VDDA"
 		(at 20.12 72.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7698,7 +7566,6 @@
 	)
 	(label "PC8"
 		(at 139.87 150.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7709,7 +7576,6 @@
 	)
 	(label "PA10"
 		(at 81.62 134.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7720,7 +7586,6 @@
 	)
 	(label "PA9"
 		(at 324.12 81.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7731,7 +7596,6 @@
 	)
 	(label "SWCLK"
 		(at 18.12 119.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7742,7 +7606,6 @@
 	)
 	(label "SWDIO"
 		(at 18.12 116.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7753,7 +7616,6 @@
 	)
 	(label "PB9"
 		(at 209.12 67.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7764,7 +7626,6 @@
 	)
 	(label "PC1"
 		(at 81.62 153.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7775,7 +7636,6 @@
 	)
 	(label "PB7"
 		(at 139.87 126.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7786,7 +7646,6 @@
 	)
 	(label "PA2"
 		(at 81.62 114.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7797,7 +7656,6 @@
 	)
 	(label "GND"
 		(at 144.12 76.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7808,7 +7666,6 @@
 	)
 	(label "PA3"
 		(at 81.62 116.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7819,7 +7676,6 @@
 	)
 	(label "PC3"
 		(at 209.12 123.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7830,7 +7686,6 @@
 	)
 	(label "VDDA'"
 		(at 87.62 61.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7841,7 +7696,6 @@
 	)
 	(label "PB0"
 		(at 285.62 164.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7852,7 +7706,6 @@
 	)
 	(label "SWO"
 		(at 139.87 116.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7863,7 +7716,6 @@
 	)
 	(label "PC13"
 		(at 139.87 163.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7874,7 +7726,6 @@
 	)
 	(label "PC2"
 		(at 81.62 155.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7885,7 +7736,6 @@
 	)
 	(label "GND"
 		(at 33.12 84.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7896,7 +7746,6 @@
 	)
 	(label "PA5"
 		(at 245.62 164.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7907,7 +7756,6 @@
 	)
 	(label "GND"
 		(at 87.62 63.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7918,7 +7766,6 @@
 	)
 	(label "PC0"
 		(at 209.12 99.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7929,7 +7776,6 @@
 	)
 	(label "PC8"
 		(at 324.12 105.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7940,7 +7786,6 @@
 	)
 	(label "PB8"
 		(at 222.62 56.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7951,7 +7796,6 @@
 	)
 	(label "PB14"
 		(at 139.87 141.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7962,7 +7806,6 @@
 	)
 	(label "PA0"
 		(at 209.12 139.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7973,7 +7816,6 @@
 	)
 	(label "GND"
 		(at 20.62 63.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7984,7 +7826,6 @@
 	)
 	(label "PC15"
 		(at 209.12 91.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7995,7 +7836,6 @@
 	)
 	(label "PA3"
 		(at 221.62 164.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8006,7 +7846,6 @@
 	)
 	(label "PA6"
 		(at 81.62 124.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8017,7 +7856,6 @@
 	)
 	(label "PC4"
 		(at 81.62 160.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8028,7 +7866,6 @@
 	)
 	(label "GND"
 		(at 18.12 111.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8039,7 +7876,6 @@
 	)
 	(label "PB7"
 		(at 238.62 56.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8050,7 +7886,6 @@
 	)
 	(label "VDD"
 		(at 87.62 54.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8061,7 +7896,6 @@
 	)
 	(label "GND"
 		(at 177.62 69.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8072,7 +7906,6 @@
 	)
 	(label "GND"
 		(at 209.12 46.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8083,7 +7916,6 @@
 	)
 	(label "PB1"
 		(at 293.62 164.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8094,7 +7926,6 @@
 	)
 	(label "VDD"
 		(at 18.12 114.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8105,7 +7936,6 @@
 	)
 	(label "PC9"
 		(at 139.87 153.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8116,7 +7946,6 @@
 	)
 	(label "VDDA'"
 		(at 33.62 75.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8127,7 +7956,6 @@
 	)
 	(label "PC6"
 		(at 81.62 165.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8138,7 +7966,6 @@
 	)
 	(label "PB12"
 		(at 139.87 136.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8149,7 +7976,6 @@
 	)
 	(label "PC14"
 		(at 139.87 165.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8160,7 +7986,6 @@
 	)
 	(label "VDD"
 		(at 20.12 51.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8171,7 +7996,6 @@
 	)
 	(label "PA12"
 		(at 81.62 139.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8182,7 +8006,6 @@
 	)
 	(label "PC10"
 		(at 139.87 155.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8193,7 +8016,6 @@
 	)
 	(label "BOOT0"
 		(at 230.62 53.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8204,7 +8026,6 @@
 	)
 	(label "PA11"
 		(at 81.62 136.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8215,7 +8036,6 @@
 	)
 	(label "GND"
 		(at 54.62 84.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8226,7 +8046,6 @@
 	)
 	(label "PD2"
 		(at 139.87 146.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8237,7 +8056,6 @@
 	)
 	(label "PB5"
 		(at 254.62 56.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8248,7 +8066,6 @@
 	)
 	(label "PC15"
 		(at 139.87 168.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8259,7 +8076,6 @@
 	)
 	(label "PC12"
 		(at 278.12 56.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8270,7 +8086,6 @@
 	)
 	(label "PC5"
 		(at 81.62 163.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8281,7 +8096,6 @@
 	)
 	(label "PA2"
 		(at 209.12 155.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8292,7 +8106,6 @@
 	)
 	(label "GND"
 		(at 167.62 69.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8303,7 +8116,6 @@
 	)
 	(label "PC6"
 		(at 324.12 121.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8314,7 +8126,6 @@
 	)
 	(label "PB9"
 		(at 139.87 131.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8325,7 +8136,6 @@
 	)
 	(label "PA10"
 		(at 324.12 73.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8336,7 +8146,6 @@
 	)
 	(label "GND"
 		(at 158.12 77.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8347,7 +8156,6 @@
 	)
 	(label "GND"
 		(at 132.12 77.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8358,7 +8166,6 @@
 	)
 	(label "PC0"
 		(at 81.62 150.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8369,7 +8176,6 @@
 	)
 	(label "PB0"
 		(at 139.87 109.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8380,7 +8186,6 @@
 	)
 	(label "PC10"
 		(at 294.12 56.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8391,7 +8196,6 @@
 	)
 	(label "PB6"
 		(at 246.62 56.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8402,7 +8206,6 @@
 	)
 	(label "PA4"
 		(at 81.62 119.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8413,7 +8216,6 @@
 	)
 	(label "PB13"
 		(at 139.87 139.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8424,7 +8226,6 @@
 	)
 	(label "PD2"
 		(at 270.62 56.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8435,7 +8236,6 @@
 	)
 	(label "PB2"
 		(at 301.62 164.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8446,7 +8246,6 @@
 	)
 	(label "PC5"
 		(at 277.62 164.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8457,7 +8256,6 @@
 	)
 	(label "VCAP"
 		(at 87.62 57.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8468,7 +8266,6 @@
 	)
 	(label "PB13"
 		(at 324.12 145.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8479,7 +8276,6 @@
 	)
 	(label "BOOT0"
 		(at 131.12 57.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8490,7 +8286,6 @@
 	)
 	(label "SWO"
 		(at 18.12 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8501,7 +8296,6 @@
 	)
 	(label "PC2"
 		(at 209.12 115.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8512,7 +8306,6 @@
 	)
 	(label "PB10"
 		(at 139.87 134.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8523,7 +8316,6 @@
 	)
 	(label "PB12"
 		(at 324.12 153.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8534,7 +8326,6 @@
 	)
 	(label "SWDIO"
 		(at 81.62 141.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8545,7 +8336,6 @@
 	)
 	(label "PB15"
 		(at 139.87 144.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8556,7 +8346,6 @@
 	)
 	(label "PA5"
 		(at 81.62 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8567,7 +8356,6 @@
 	)
 	(label "PA9"
 		(at 81.62 131.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8578,7 +8366,6 @@
 	)
 	(label "PC11"
 		(at 286.12 56.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8589,7 +8376,6 @@
 	)
 	(label "GND"
 		(at 324.12 174.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8600,7 +8386,6 @@
 	)
 	(label "PC4"
 		(at 269.62 164.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8611,7 +8396,6 @@
 	)
 	(label "PA12"
 		(at 310.12 56.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8622,7 +8406,6 @@
 	)
 	(label "PA1"
 		(at 81.62 111.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8633,7 +8416,6 @@
 	)
 	(label "GND"
 		(at 209.12 176.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8644,7 +8426,6 @@
 	)
 	(label "PA11"
 		(at 324.12 65.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8655,7 +8436,6 @@
 	)
 	(label "PA15"
 		(at 81.62 146.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8666,7 +8446,6 @@
 	)
 	(label "VDDA"
 		(at 209.12 131.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8677,7 +8456,6 @@
 	)
 	(label "PB10"
 		(at 309.62 164.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8688,7 +8466,6 @@
 	)
 	(label "SWCLK"
 		(at 81.62 144.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8699,7 +8476,6 @@
 	)
 	(label "PC7"
 		(at 81.62 168.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8710,7 +8486,6 @@
 	)
 	(label "VDD"
 		(at 87.62 67.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8721,7 +8496,6 @@
 	)
 	(label "PA8"
 		(at 81.62 129.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8732,7 +8506,6 @@
 	)
 	(label "PA4"
 		(at 237.62 164.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8743,7 +8516,6 @@
 	)
 	(label "PC14"
 		(at 209.12 83.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8754,7 +8526,6 @@
 	)
 	(label "PC1"
 		(at 209.12 107.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8765,7 +8536,6 @@
 	)
 	(label "PA6"
 		(at 253.62 164.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8776,7 +8546,6 @@
 	)
 	(label "PA7"
 		(at 81.62 126.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8787,7 +8556,6 @@
 	)
 	(label "PA1"
 		(at 209.12 147.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8798,7 +8566,6 @@
 	)
 	(label "PB6"
 		(at 139.87 124.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8809,7 +8576,6 @@
 	)
 	(label "PB5"
 		(at 139.87 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8820,7 +8586,6 @@
 	)
 	(label "PB4"
 		(at 262.62 56.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8831,7 +8596,6 @@
 	)
 	(label "PC13"
 		(at 209.12 75.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8842,7 +8606,6 @@
 	)
 	(label "PB14"
 		(at 324.12 137.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8853,7 +8616,6 @@
 	)
 	(label "PA0"
 		(at 81.62 109.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8864,7 +8626,6 @@
 	)
 	(label "GND"
 		(at 324.12 44.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8875,7 +8636,6 @@
 	)
 	(label "PB15"
 		(at 324.12 129.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8886,7 +8646,6 @@
 	)
 	(label "PA8"
 		(at 324.12 89.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8897,7 +8656,6 @@
 	)
 	(label "PA7"
 		(at 261.62 164.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8908,7 +8666,6 @@
 	)
 	(label "VDD"
 		(at 229.62 164.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8919,7 +8676,6 @@
 	)
 	(label "PC7"
 		(at 324.12 113.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8930,7 +8686,6 @@
 	)
 	(label "PC12"
 		(at 139.87 160.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8941,7 +8696,6 @@
 	)
 	(label "PC3"
 		(at 81.62 158.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8952,7 +8706,6 @@
 	)
 	(label "PB8"
 		(at 139.87 129.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8963,7 +8716,6 @@
 	)
 	(label "PC11"
 		(at 139.87 158.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8974,7 +8726,6 @@
 	)
 	(label "PB2"
 		(at 139.87 114.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8985,7 +8736,6 @@
 	)
 	(label "PB1"
 		(at 139.87 111.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8996,7 +8746,6 @@
 	)
 	(label "VCAP"
 		(at 54.12 72.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -9007,7 +8756,6 @@
 	)
 	(label "PB4"
 		(at 139.87 119.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -9018,7 +8766,6 @@
 	)
 	(label "PC9"
 		(at 324.12 97.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -9029,7 +8776,6 @@
 	)
 	(label "PA15"
 		(at 302.12 56.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10805,7 +10551,7 @@
 			)
 		)
 		(property "Value" "STM32F446RET6"
-			(at 96.774 172.72 0)
+			(at 96.774 173.482 0)
 			(effects
 				(font
 					(size 1 0.85)
@@ -14041,7 +13787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/65/cb/75/50/53/d6/48/24/DM00141306.pdf/files/DM00141306.pdf/jcr:content/translations/en.DM00141306.pdf"
 			(at 96.12 54.42 0)
 			(effects
 				(font
@@ -14050,7 +13796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ARM® Cortex®-M4 STM32F4 (STM32G474xC/E series) Microcontroller IC 32-Bit, 180MHz, 512KB (512K x 8) FLASH memory, LQFP-64 (10x10)"
 			(at 96.12 54.42 0)
 			(effects
 				(font
